@@ -37,16 +37,16 @@ def displayList(x,y):
 
 #########################################################
 #main script
-screen = turtle.Screen()
+
 addItemCostume = "AddItem.gif"
 deleteItemCostume = "DeleteItem.gif"
 clearListCostume = "ClearList.gif"
 showListCostume = "ShowList.gif"
 
-screen.addshape(addItemCostume)
-screen.addshape(deleteItemCostume)
-screen.addshape(clearListCostume)
-screen.addshape(showListCostume)
+turtle.addshape(addItemCostume)
+turtle.addshape(deleteItemCostume)
+turtle.addshape(clearListCostume)
+turtle.addshape(showListCostume)
 
 #Create Turtle Buttons
 addItemButton = turtle.Turtle()
