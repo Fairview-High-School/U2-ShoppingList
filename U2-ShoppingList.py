@@ -64,13 +64,9 @@ showListButton.shape("ShowList.gif")
 
 #Position Turtle Buttons
 addItemButton.goto(0,75)
-addItemButton.left(90)
 deleteItemButton.goto(0,25)
-deleteItemButton.left(90)
 clearListButton.goto(0,-25)
-clearListButton.left(90)
 showListButton.goto(0,-75)
-showListButton.left(90)
 
 #add Turtle Specific Scripts
 addItemButton.onclick(addItem)  #runs the function addItem, sending it the x and y coordinate of the click, when addItemButton is clicked.
