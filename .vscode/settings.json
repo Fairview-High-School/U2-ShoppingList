@@ -4,8 +4,6 @@
   "editor.formatOnSave": true,
 
   // --- Disable AI code suggestions by default ---
-  // Note: these are workspace-level defaults, not a hard lock —
-  // a student could still re-enable them in their own user settings.
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
